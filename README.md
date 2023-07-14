@@ -8,12 +8,12 @@ To simplify your test, you inform ISRO to send Figo’s FSM a binary sequence fo
 
 
 
-Room0[000]	If 0, stay at Room0	If 1, go to Room1
-Room1[001]	If 0, go to Room2	If 1, go to Room4
-Room2[010]	If 0, go to Room3	If 1, go to Room4
-Room3[011]	If 0, stay at Room3	If 1, go to Room0
-Room4[100]	If 0, go to Room7	If 1, go to Room5
-Room5[101]	If 0, go to Room3	If 1, go to Room6
-Room6[110]	If 0, go to Room7	If 1, stay at Room6
+Room0[000]	If 0, stay at Room0	If 1, go to Room1.
+Room1[001]	If 0, go to Room2	If 1, go to Room4.
+Room2[010]	If 0, go to Room3	If 1, go to Room4.
+Room3[011]	If 0, stay at Room3	If 1, go to Room0.
+Room4[100]	If 0, go to Room7	If 1, go to Room5.
+Room5[101]	If 0, go to Room3	If 1, go to Room6.
+Room6[110]	If 0, go to Room7	If 1, stay at Room6.
 
 
